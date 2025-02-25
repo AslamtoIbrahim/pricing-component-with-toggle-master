@@ -18,4 +18,20 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  /* background: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%)); */
+}
+
+.line {
+  @apply w-full border-x-neutral-grayish-blue;
+}
+
+.topBottom {
+  background-image: url("../../public/sources/images/bg-top.svg");
+  background-position: right -9rem top -4rem;
+  background-repeat: no-repeat;
+  @media (min-width: 768px) {
+    background-image: url("../../public/sources/images/bg-top.svg"),
+      url("../../public/sources/images/bg-top.svg");
+    background-position: top right, bottom left;
+  }
 }

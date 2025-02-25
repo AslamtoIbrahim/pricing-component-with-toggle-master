@@ -25,6 +25,9 @@ export default {
       fontFamily: {
         montser: ["var(--font-geist-montserrat)", "sans-serif"],
       },
+      backgroundImage: {
+        gradient: "linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%))",
+      }
     },
   },
   plugins: [],
