@@ -15,7 +15,7 @@ const Button = ({ text, ispro = false }: prop) => {
         hover:bg-none hover:bg-white hover:text-primary-to hover:border-neutral-grayish-blue `
       } 
       hover:border-[0.5px] w-full uppercase  tracking-widest py-2 rounded-md text-sm 
-      shadow-md
+      shadow-md lg:text-xl 
      `}
     >
       {text}

@@ -31,7 +31,7 @@ body {
   background-repeat: no-repeat;
   @media (min-width: 768px) {
     background-image: url("../../public/sources/images/bg-top.svg"),
-      url("../../public/sources/images/bg-top.svg");
+      url("../../public/sources/images/bg-bottom.svg");
     background-position: top right, bottom left;
   }
 }
